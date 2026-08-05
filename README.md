@@ -56,3 +56,18 @@ Nota rápida — abrir localmente:
 - En Linux: `xdg-open preview.html`
 - Alternativa: doble clic en el archivo desde tu gestor de archivos.
 
+Descarga y ejecución rápida (recomendado):
+
+- Preview ZIP (descarga directa): [preview.zip](preview.zip)
+
+1. Descarga `preview.zip` desde el repositorio.
+2. Extrae el ZIP en tu carpeta local.
+3. Desde la carpeta donde está `preview.html` ejecuta:
+
+```bash
+chmod +x open-preview.sh
+./open-preview.sh
+```
+
+Esto abrirá `preview.html` en tu navegador con el comando apropiado para tu sistema (macOS/Linux).
+
