@@ -46,7 +46,7 @@ Si quieres, puedo terminar el despliegue desde este entorno — necesito que ini
 
 Si quieres ver una versión estática simple ahora, hay un archivo HTML listo para descargar y abrir localmente:
 
-- Preview HTML: [public/preview.html](public/preview.html)
+- Preview HTML: [preview.html](preview.html)
 
 Puedes descargarlo haciendo clic en el enlace anterior en GitHub (botón "Raw" → Guardar como), o descargar el archivo directamente desde el repositorio y abrirlo en tu navegador.
 
