@@ -42,3 +42,11 @@ Reemplaza `PENDIENTE_DE_DESPLIEGUE` arriba por esa URL.
 
 Si quieres, puedo terminar el despliegue desde este entorno — necesito que inicies sesión con `npx vercel login` en este terminal (abrirás una URL y autorizarás). Actualmente el intento falló con: "The specified token is not valid".
 
+### Vista previa rápida (archivo HTML descargable)
+
+Si quieres ver una versión estática simple ahora, hay un archivo HTML listo para descargar y abrir localmente:
+
+- Preview HTML: [public/preview.html](public/preview.html)
+
+Puedes descargarlo haciendo clic en el enlace anterior en GitHub (botón "Raw" → Guardar como), o descargar el archivo directamente desde el repositorio y abrirlo en tu navegador.
+
