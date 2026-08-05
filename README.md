@@ -90,4 +90,18 @@ Notas:
 - El script no sobrescribe una `.env` existente. Si creas una nueva `.env` desde `.env.example`, rellena las claves sensibles (Clerk, DATABASE_URL, Stripe) antes de ejecutar `npm run dev` o desplegar.
 - Para despliegue en Vercel añade las mismas variables en Settings → Environment Variables.
 
+### Acceder a la versión RAW del preview
+
+Si quieres descargar y abrir la versión "raw" de `preview.html` desde GitHub, puedes usar el script incluido:
+
+```bash
+chmod +x scripts/open-raw-preview.sh
+./scripts/open-raw-preview.sh
+```
+
+También puedes abrir directamente la URL raw en tu navegador:
+
+https://raw.githubusercontent.com/CapuanoNice/SC-MOBILITY/main/preview.html
+
+
 
