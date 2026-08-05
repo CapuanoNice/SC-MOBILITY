@@ -1,7 +1,9 @@
 "use client"
 
 import React from 'react'
-import { SignIn } from '@clerk/nextjs'
+import dynamic from 'next/dynamic'
+
+const SignIn = dynamic(() => import('@clerk/nextjs').then(mod => mod.SignIn), { ssr: false })
 
 export default function SignInPage() {
   return (
