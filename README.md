@@ -20,7 +20,8 @@ Website de SC-MOBILITY
 
 Estado: pendiente — despliegue en Vercel no completado desde este entorno debido a credenciales.
 
-- Dominio público (Vercel): `PENDIENTE_DE_DESPLIEGUE`
+-- Dominio público (Vercel): `PENDIENTE_DE_DESPLIEGUE`
+-- Versión estática (GitHub Pages): https://CapuanoNice.github.io/SC-MOBILITY
 
 Pasos para desplegar y obtener el dominio gratuito:
 
