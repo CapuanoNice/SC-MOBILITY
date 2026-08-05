@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.*.local
+dist/
+coverage/
+npm-debug.log*
+.DS_Store
+/.idea
+.vscode
+package-lock.json
+/.vercel
+/.cache

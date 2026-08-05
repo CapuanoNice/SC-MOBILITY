@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Manrope:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-primary: #007BFF;
+  --color-black: #0A0A0A;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, 'Manrope', 'SF Pro Display', sans-serif;
+}
+
+.glass {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(6px) saturate(120%);
+}

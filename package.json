@@ -1,0 +1,38 @@
+{
+  "name": "sc-mobility",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma": "prisma",
+    "prisma:generate": "prisma generate",
+    "prisma:seed": "node prisma/seed.js",
+    "seed": "npm run prisma:generate && npm run prisma:seed",
+    "run:script": "bash run.sh"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.4.2",
+    "@prisma/client": "^5.10.0",
+    "framer-motion": "^10.12.16",
+    "gsap": "^3.12.2",
+    "lucide-react": "^0.276.0",
+    "@clerk/nextjs": "^6.0.0",
+    "tailwindcss": "^4.3.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.28"
+  },
+  "devDependencies": {
+    "prisma": "^5.10.0",
+    "@types/node": "^20.6.1",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.11",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.5.0"
+  }
+}
