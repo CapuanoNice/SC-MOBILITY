@@ -50,3 +50,9 @@ Si quieres ver una versión estática simple ahora, hay un archivo HTML listo pa
 
 Puedes descargarlo haciendo clic en el enlace anterior en GitHub (botón "Raw" → Guardar como), o descargar el archivo directamente desde el repositorio y abrirlo en tu navegador.
 
+Nota rápida — abrir localmente:
+
+- En macOS: `open preview.html`
+- En Linux: `xdg-open preview.html`
+- Alternativa: doble clic en el archivo desde tu gestor de archivos.
+
