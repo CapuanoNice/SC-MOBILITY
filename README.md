@@ -1,4 +1,7 @@
+
 # SC-MOBILITY — Plataforma premium de micromovilidad
+
+[Ver preview RAW](https://raw.githubusercontent.com/CapuanoNice/SC-MOBILITY/main/preview.html) 🔗
 
 Proyecto base para la tienda premium SC-MOBILITY.
 
