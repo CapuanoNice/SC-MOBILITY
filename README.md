@@ -69,5 +69,25 @@ chmod +x open-preview.sh
 ./open-preview.sh
 ```
 
+
 Esto abrirá `preview.html` en tu navegador con el comando apropiado para tu sistema (macOS/Linux).
+
+---
+
+### Script para aplicar los cambios recientes
+
+He añadido un script que automatiza los pasos necesarios para sincronizar el repositorio con los últimos commits, instalar dependencias, crear `.env` desde `.env.example` (si falta), ejecutar el seed (si existe) y construir la aplicación.
+
+- Archivo: `scripts/apply-changes.sh`
+- Uso:
+
+```bash
+chmod +x scripts/apply-changes.sh
+./scripts/apply-changes.sh
+```
+
+Notas:
+- El script no sobrescribe una `.env` existente. Si creas una nueva `.env` desde `.env.example`, rellena las claves sensibles (Clerk, DATABASE_URL, Stripe) antes de ejecutar `npm run dev` o desplegar.
+- Para despliegue en Vercel añade las mismas variables en Settings → Environment Variables.
+
 
